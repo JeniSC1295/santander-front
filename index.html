@@ -2,49 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+  <!-- datos, nada visual-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css"> <!-- Importacion de archivos -->
 </head>
 
 <body>
-    <!-- RETO 1 Esto es lo que se verá en el navegador web -->
-    <h1>Modulo 1: Frontend Fundamentals Santander 2021 </h1>
-    <h2>Git y terminal (Estructura tu sitio)</h2>
-    <h3>Sesión 01: Estructura tu sitio</h3>
-    <!-- <h4>Titulo de cuarto nivel</h4>
+  <header class="header"> <!-- aqui agregamos una clase, nota: para usarla en el styles hay que poner .-->
+    <a href="./index.html" class="logo">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo">
+    </a>
+    <!-- Menú navegación -->
+    <nav class="navbar">
+      <ul>
+        <!-- Para agregar links en la lista usamos <a href=""></a> -->
+        <li>Platform</li>
+        <li>Pricing</li>
+        <li>Customers</li>
+        <li>Resources</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <a href="./login"> Sing In</a>
+      <button>Start free trial</button> <br>
+    </div>
+
+  </header>
+
+
+
+  <!-- RETO 1 Esto es lo que se verá en el navegador web -->
+  <h1>Modulo 1: Frontend Fundamentals Santander 2021 </h1>
+  <h2>Git y terminal (Estructura tu sitio)</h2>
+  <h3>Sesión 01: Estructura tu sitio</h3>
+  <!-- <h4>Titulo de cuarto nivel</h4>
     <h5>Titulo de quinto nivel</h5>
     <h6>Titulo de sexto nivel</h6> -->
-    <!-- parrafo; RETO 2 etiqueta b para resaltar -->
-            <p>
-            El módulo que estás a punto de iniciar son los principios del desarrollo <b>FrontEnd.</b> <br/> 
-            Tal vez sería bueno saber de qué trata, ¿no?. Acá podrás entender qué tecnologías comprende el Front-end <b>(HTML, CSS y un poco de JS)</b> y sobre qué plataforma se desenvuelve (navegador).
-        </p>
+  <!-- parrafo; RETO 2 etiqueta b para resaltar -->
+  <p>
+    El módulo que estás a punto de iniciar son los principios del desarrollo <b>FrontEnd.</b> <br />
+    Tal vez sería bueno saber de qué trata, ¿no?. Acá podrás entender qué tecnologías comprende el Front-end <b>(HTML,
+      CSS y un poco de JS)</b> y sobre qué plataforma se desenvuelve (navegador).
+  </p>
 
-    <!-- <input type="text"><br> -->
-    <!-- EJEMPLO 4 FORMULARIOS-->
-    <!-- <form action="">
+  <!-- <input type="text"><br> -->
+  <!-- EJEMPLO 4 FORMULARIOS-->
+  <!-- <form action="">
     <input type="email">
     <button type="submit">Enviar &rarr;</button>
 </form> -->
-    <!-- RETO 3FORMULARIOS-->
-    <h4>Permitenos contactarte</h4>
-      <form>
+  <!-- RETO 3FORMULARIOS-->
+  <h4>Permitenos contactarte</h4>
+  <form>
 
-        <label for="name">Nombre</label> 
-        <input type="text" id="name" name="fname" placeholder="Nombre(s)" required><br><br>
-        <input type="text" id="lastname" name="lastname" placeholder="Apellido" required><br><br>
-        <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-        <input type="email" id="email" name="email" placeholder="Correo" required><br><br>
-        <!-- <input type="password" id="password" name="password" placeholder="Contraseña"><br><br> -->
-        <button type="submit">Enviar &#10145;</button>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="fname" placeholder="Nombre(s)" required><br><br>
+    <input type="text" id="lastname" name="lastname" placeholder="Apellido" required><br><br>
+    <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+    <input type="email" id="email" name="email" placeholder="Correo" required><br><br>
+    <!-- <input type="password" id="password" name="password" placeholder="Contraseña"><br><br> -->
+    <button type="submit">Enviar &#10145;</button>
 
-    </form>
+  </form>
 
-    <!-- <h1> RETO 4 IMAGEN </h1> -->
-   <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Imagen 1">
+  <!-- <h1> RETO 4 IMAGEN </h1> -->
+  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Imagen 1">
+
+
 </body>
 
 </html>
