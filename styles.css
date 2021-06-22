@@ -24,14 +24,21 @@ p {
 }
 button {
     color: rgb(247, 247, 247);
-    background-color:rgb(110, 26, 26);
+    background-color: #025157;
     
 }
 form {
     text-align: center;
 }
 
-
+.fixed-header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+  }
 
 .header {
  /* margin-top: 40px;
@@ -84,3 +91,56 @@ font-size: 14px;
     border: 0;
     border-radius: 5px;
 }
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+.publish {
+    margin-left: 20px;
+  }
+  .publish h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 25px;
+  }
+  .publish >  button {
+    color: white;
+    background-color: #025157;
+    
+}
+
+.explicacion-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explicacion-video img {
+    width: 120px;
+    margin-top: 10px; 
+}
+main {
+    margin-top: 285px;
+    text-align: center;
+  }
