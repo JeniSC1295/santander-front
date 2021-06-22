@@ -13,29 +13,30 @@
 <body>
   <!-- Este es el contenedor que envuelve a la barra de navegación -->
   <section class="fixed-header">
-  <header class="header"> <!-- aqui agregamos una clase, nota: para usarla en el styles hay que poner .-->
-    <a href="./index.html" class="logo">
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo">
-    </a>
-    <!-- Menú navegación -->
-    <nav class="navbar">
-      <ul class="menu">
-        <!-- Para agregar links en la lista usamos <a href=""></a> -->
-        <li>Platform</li>
-        <li>Pricing</li>
-        <li>Customers</li>
-        <li>Resources</li>
-        <li>About</li>
-      </ul>
-    </nav>
+    <header class="header">
+      <!-- aqui agregamos una clase, nota: para usarla en el styles hay que poner .-->
+      <a href="./index.html" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo">
+      </a>
+      <!-- Menú navegación -->
+      <nav class="navbar">
+        <ul class="menu">
+          <!-- Para agregar links en la lista usamos <a href=""></a> -->
+          <li>Platform</li>
+          <li>Pricing</li>
+          <li>Customers</li>
+          <li>Resources</li>
+          <li>About</li>
+        </ul>
+      </nav>
 
-    <div class="actions">
-      <a href="./login"> Sing In</a>
-      <button>Start free trial</button>
-    </div>
+      <div class="actions">
+        <a href="./login"> Sing In</a>
+        <button>Start free trial</button>
+      </div>
 
-  </header>
-</section>
+    </header>
+  </section>
 
 
   <!-- RETO 1 Esto es lo que se verá en el navegador web -->
@@ -59,45 +60,43 @@
     <button type="submit">Enviar &rarr;</button>
 </form> -->
   <!-- RETO 3FORMULARIOS-->
-  <h4>Permitenos contactarte</h4>
+  <!-- <h4>Permitenos contactarte</h4>
   <form>
 
     <label for="name">Nombre</label>
     <input type="text" id="name" name="fname" placeholder="Nombre(s)" required><br><br>
     <input type="text" id="lastname" name="lastname" placeholder="Apellido" required><br><br>
     <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-    <input type="email" id="email" name="email" placeholder="Correo" required><br><br>
-    <!-- <input type="password" id="password" name="password" placeholder="Contraseña"><br><br> -->
-    <button type="submit">Enviar &#10145;</button>
+    <input type="email" id="email" name="email" placeholder="Correo" required><br><br> -->
+  <!-- <input type="password" id="password" name="password" placeholder="Contraseña"><br><br> -->
+  <!-- <button type="submit">Enviar &#10145;</button>
 
-  </form>
+  </form> -->
 
   <!-- <h1> RETO 4 IMAGEN </h1> -->
-  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Imagen 1">
+  <figure class="banner">
+    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="capterra">
+
+  </figure>
 
 
-<!-- contenedor -->
-  <section class="promo"> <!-- flex container -->
+  <!-- contenedor -->
+  <section class="promo">
+    <!-- flex container -->
     <!-- agregando formatos de video -->
     <article class="explicacion-video">
-    <video
-      controls
-      poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-    >
-      <source
-        type="video/webm"
-        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-      />
-      <source
-        type="video/mp4"
-        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-      />
-      
-    </video>
-<img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="see how it works">
-  </article>
-  
-<!-- contenedor de publicidad -->
+      <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source type="video/webm"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
+        <source type="video/mp4"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
+
+      </video>
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="see how it works">
+    </article>
+
+    <!-- contenedor de publicidad -->
     <article class="publish">
       <h3>EJEMPLO DE PUBLICIDAD 1</h3>
       <p>
@@ -106,14 +105,69 @@
       <form>
         <p>Suscribete para mayor informacion:</p>
         <div>
-          <input type="text" placeholder="Ingresa tu email" required/>
+          <input type="text" placeholder="Ingresa tu email" required />
           <button>Comezar prueba</button>
         </div>
       </form>
     </article>
   </section>
 
+  <!-- --------------------POSWORK--------------------- -->
+  <section class="success-stories">
+    <article class="overview">
+      <h2>Growing ecommerce brands rely on Matcha.</h2>
+      <p>
+        Are you tired of wasting time publishing blog articles to only see a
+        trickle of traffic and no impact on sales? Join hundreds of business
+        owners and ecommerce marketers who rely on Matcha for quality content
+        and consistent performance from their blogs.
+      </p>
+      <button>
+        Who Uses Matcha?
+      </button>
+      <figure>
+        <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" alt="Brands">
+      </figure>
+    </article>
 
+    <article class="stories-carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-media">
+                <figure>
+                  <img src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png"
+                    alt="Everly worker">
+                </figure>
+                <div class="company">
+                  <img src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png"
+                    alt="Everly">
+                </div>
+              </div>
+              
+              <div class="card-body">
+                <h4>Everly</h4>
+                <h3>
+                  Early-Stage CPG Brand Increases Lead Conversion 20x,
+                  Ecommerce Revenue 20%
+                </h3>
+                <div class="results">
+                  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png" alt="Cart icon">
+                  <p>22% of monthly revenue influenced by content</p>
+                </div>
+              </div>
+              <div class="card-footer">
+                <button>See Case Study</button>
+              </div>
+            </div>
+                     
+      
+      </div>
+    </article>
+  </section>
+
+  </section>
 </body>
 
 </html>
