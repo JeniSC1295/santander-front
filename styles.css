@@ -25,10 +25,10 @@ h2{
     color: rgb(76, 70, 119);
     font-style: normal;font-family:'Times New Roman', Times, serif;
 }
-h3 {
+/* h3 {
     color: rgb(161, 5, 88);
     font-style: oblique;font-family:'Courier New', Courier, monospace;
-}
+} */
 b {
     color:rgb(78, 32, 78);
 }
@@ -464,4 +464,91 @@ color: black;
   
   #main div:nth-of-type(2) {
     flex-basis: 100px;
+  }
+
+  .how-work {
+    background-color: white;
+    padding: 10% 10%;
+    text-align: center;
+  }
+  .how-work .title {
+    color: #025157;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+  .how-work .description {
+    font-family: sans-serif;
+    color: #46484c;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .how-work .description a {
+    color: #67b54b;
+  }
+  .how-work button {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 12px 12px 12px;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .how-work .steps{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .how-work .steps .card-step {
+    background-color: white;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    margin: 0  15px 0 15px;
+    text-align: left;
+  }
+  .how-work .steps .card-step .card-step-img {
+    position: relative;
+    height: 300px;
+  }
+  .how-work .steps .card-step .card-step-img .card-step-icon {
+    position: absolute;
+    top: 25px;
+  left: 25px;
+  width: 25px;
+  }
+  .how-work .steps .card-step .card-step-img .card-step-bg {
+    width: 100%;
+  height: 100%;
+  }
+  .how-work .steps .card-step .card-step-body {
+    padding: 25px;
+  }
+  .how-work .steps .card-step .card-step-body h3 {
+    font-size: 30px;
+  line-height: 36px;
+  font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 400;
+  text-align: center;
+  }
+  .how-work .steps .card-step .card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+  }
+  .how-work .steps .card-step .card-step-body a {
+    font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
   }
