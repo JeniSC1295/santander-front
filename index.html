@@ -8,50 +8,107 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <!-- importacion de Bootstrap -->
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+/>
   <link rel="stylesheet" href="./styles.css"> <!-- Importacion de archivos -->
 </head>
 
 <body>
   <!-- Este es el contenedor que envuelve a la barra de navegación -->
-  <section class="fixed-header">
+ <!-- <section class="fixed-header">
     <header class="header">
       <!-- aqui agregamos una clase, nota: para usarla en el styles hay que poner .-->
-      <a href="./index.html" class="logo">
+      <!-- <a href="./index.html" class="logo">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo">
-      </a>
+      </a> -->
       <!-- Menú navegación -->
-      <nav class="navbar">
-        <ul class="menu">
+      <!-- <nav class="navbar">
+        <ul class="menu"> -->
           <!-- Para agregar links en la lista usamos <a href=""></a> -->
-          <li>Platform</li>
+          <!-- <li>Platform</li>
           <li>Pricing</li>
           <li>Customers</li>
           <li>Resources</li>
           <li>About</li>
         </ul>
-      </nav>
+      </nav> -->
 
-      <div class="actions">
+      <!-- <div class="actions">
         <a href="./login"> Sing In</a>
         <button>Start free trial</button>
       </div>
     </header>
-  </section>
+  </section>  -->
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+        alt="Matcha"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Platform</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </form>
+    </div>
+  </nav>
+  
+ 
 
   <!-- RETO 1 Esto es lo que se verá en el navegador web -->
-  <h1>Modulo 1: Frontend Fundamentals Santander 2021 </h1>
-  <h2>Git y terminal (Estructura tu sitio)</h2>
-  <h3>Sesión 01: Estructura tu sitio</h3>
-  <!-- <h4>Titulo de cuarto nivel</h4>
-    <h5>Titulo de quinto nivel</h5>
-    <h6>Titulo de sexto nivel</h6> -->
-  <!-- parrafo; RETO 2 etiqueta b para resaltar -->
-  <p>
-    El módulo que estás a punto de iniciar son los principios del desarrollo <b>FrontEnd.</b> <br />
-    Tal vez sería bueno saber de qué trata, ¿no?. Acá podrás entender qué tecnologías comprende el Front-end <b>(HTML,
-      CSS y un poco de JS)</b> y sobre qué plataforma se desenvuelve (navegador).
-  </p>
+  <h1>Build your blog. Build your business.</h1>
+      <h4>
+        Instantly publish articles, drive more traffic, grow your email list,
+        and see your blog’s impact on sales.
+      </h4>
+      <form class="signup-form">
+        <input type="email" placeholder="Enter email address" />
+        <button type="submit">
+          Try it now &rarr;
+        </button>
+      </form>
+      <p>
+        Start publishing today with a <strong>free 7-day trial.</strong>
+        <br />
+        <strong>No credit card</strong> required.
+      </p>
 
   <!-- <input type="text"><br> -->
   <!-- EJEMPLO 4 FORMULARIOS-->
@@ -112,6 +169,33 @@
       </form>
     </article>
   </section>
+
+>  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png" class="d-block w-100" alt="Everly worker">
+    </div>
+    <div class="carousel-item">
+      <img src="https://getmatcha.com/wp-content/uploads/2019/08/0.jpg" class="d-block w-100" alt="Seato Summit worker">
+    </div>
+    <div class="carousel-item">
+      <img src="https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png" class="d-block w-100" alt="Mambe workers">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div
 
   <!-- SESION 4 RETO 4 -->
   <section class="features">
@@ -336,6 +420,47 @@
       </article>
     </div>
   </section>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"
+></script>
+
 </body>
 
 </html>
